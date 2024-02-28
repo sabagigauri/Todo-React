@@ -1,0 +1,17 @@
+.container {
+  max-width: 375px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+
+@media screen and (min-width: 1140px) {  
+    .container {
+        max-width: 1140px;
+        display: flex;
+        align-items: center;
+        background-size: 100%;
+    }
+}

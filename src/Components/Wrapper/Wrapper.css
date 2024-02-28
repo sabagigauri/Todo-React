@@ -1,0 +1,16 @@
+.wrapper {
+  display: flex;
+  gap: 200px;
+  padding-block: 30px;
+}
+
+.moonToggle {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1140px) {
+
+    .wrapper {
+        gap: 410px;
+    }
+}

@@ -1,0 +1,57 @@
+.todo {
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 35px 50px -15px rgba(194, 195, 214, 0.5);
+  width: 327px;
+  height: 48px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-inline: 20px;
+}
+
+#id2 {
+    display: inline-block;
+    outline: 0;
+    text-align: center;
+    cursor: pointer;
+    border: 0;
+    color: #fff;
+    font-size: 17.5px;
+    background: linear-gradient(286deg,#00d301,#36c275 50%,#00a562);
+    font-weight: 800;
+    transition: background,color .1s ease-in-out;
+    border-radius: 100%;
+    width: 37px;
+}
+
+#input {
+    width: 303px;
+    height: 48px;
+    border: 0;
+}
+
+#input:focus {
+    outline: none;
+}
+
+::placeholder {
+font-size: 18px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: -0.25px;
+text-align: left;
+
+}
+
+@media screen and (min-width: 1140px) {
+
+    #id2 {
+        display: none;
+    }
+
+    .todo {
+        width: 540px;
+    }
+}
